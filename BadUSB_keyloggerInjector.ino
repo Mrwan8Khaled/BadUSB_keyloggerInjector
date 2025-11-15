@@ -106,36 +106,6 @@ void setup()
   
   // Make capslock flash to know when you can unplug the BadUSB
   
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(2000);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
   // End Payload
 
   // Stop Keyboard and Mouse
@@ -143,4 +113,8 @@ void setup()
 }
 
 // Unused
-void loop() {}
+void loop() {
+  Keyboard.write(KEY_CAPS_LOCK);
+  delay(150);
+}
+
