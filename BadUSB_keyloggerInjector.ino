@@ -108,34 +108,6 @@ void setup()
   
   Keyboard.write(KEY_CAPS_LOCK);
 
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(2000);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
-  delay(150);
-
-  Keyboard.write(KEY_CAPS_LOCK);
-
   // End Payload
 
   // Stop Keyboard and Mouse
@@ -144,3 +116,4 @@ void setup()
 
 // Unused
 void loop() {}
+
